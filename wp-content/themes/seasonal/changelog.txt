@@ -1,0 +1,137 @@
+-------------------------------------------------------
+    CHANGELOG
+-------------------------------------------------------
+
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating 
+bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at 
+what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different 
+parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+-------------------------------------------------------
+    CHANGELOG Version Numbers
+-------------------------------------------------------
+
+[major].[minor].[patch]
+
+These 3 levels are defined as:
+
+1. An increment in the major version indicates a break in backward compatibility.
+2. An increment in the minor version indicates the addition of new features or a significant change to existing features.
+3. An increment in the patch version indicates that minor features have been changed or bugs have been fixed.
+
+-------------------------------------------------------
+    Changes Made to this Theme
+-------------------------------------------------------
+
+November 28, 2015 Version 1.1.3
+-------------------------------------------------------
+
+- Fixed the Hide Post Author setting which was not working
+- Replaced Genericons with Font Awesome
+- Fixed a problem where the blog home was showing a page title (unstyled)
+- Added the missing Next Previous post navigation and added the option to show or hide it
+- Updated the seasonal.pot language file
+
+
+October 21, 2015 Version 1.1.2
+-------------------------------------------------------
+
+- Fixed a Google font function code...removed a comma that prevented the google fonts from loading and coming up as 404
+
+
+October 19, 2015 Version 1.1.1
+-------------------------------------------------------
+
+- Fixed blog navigation, bottom sidebar, and copyright to properly clear each other.
+- Changed the submenus to collapse when another one is opened
+- Added a Mobile Menu label option to rename it.
+- Added an option to show or hide the author bio box below the full post
+- Added a Typography option group in the customizer for font sizes
+- Updated the enqueue of Google Fonts in the functions.php file
+- Added escaping to language strings
+- Updated the seasonal.pot language file
+- Updated the Schema.org for Seasonal
+
+
+
+September 22, 2015 Version 1.1.0
+-------------------------------------------------------
+
+- Fixed the content alignment of the default page template
+
+
+September 22, 2015 Version 1.0.9
+-------------------------------------------------------
+
+- Fixed a missing curly bracket on an inline style that affected the sidebar resizing option.
+- Added a permalink to the Status post format titles
+- Changed the inline-styles insertion based on WP standards
+- Added an option to float the sidebar menu upward
+- Moved the theme info buttons from the customizer to the Appearance admin menu group as "Seasonal Info"
+- Updated the seasonal.pot language file
+
+
+[August 27, 2015] Version 1.0.8
+-------------------------------------------------------
+
+- Fixed a missing text domain for a language string in the footer.php file
+- Changed archive page heading titles with a new code set for filtering custom titles.
+- Updated the seasonal.pot language file
+
+
+[August 25, 2015] Version 1.0.7
+-------------------------------------------------------
+
+- Fixed a  text domain issue in the content-none.php file.
+- Adjusted the text domain strings in the search-form.php file
+- Updated the seasonal.pot language file
+
+
+[August 25, 2015] Version 1.0.6
+-------------------------------------------------------
+
+- Fixed the problem where the sidebar menu disappeared at certain widths when the browser window is made smaller.
+- Added a  set of buttons to the customizer, such as a link to theme setup documentation, theme support, review...
+- Updated the seasonal.pot language file
+
+
+[July 5, 2015] Version 1.0.5
+-------------------------------------------------------
+
+- Fixed a function in the functions.php file that was not loading the font icons.
+- Removed a duplicate set of the Genericon font
+
+
+[July 1, 2015] Version 1.0.4
+-------------------------------------------------------
+
+- Fixed an issue with genericons display errors in Firefox. It needed the base64 font version.
+- Updated the functions.php file to accommodate the font icons.
+
+
+[June 22, 2015] Version 1.0.3
+-------------------------------------------------------
+
+- Fixed problem of genericons font not loading
+
+
+[June 22, 2015] Version 1.0.2
+-------------------------------------------------------
+
+[x] Removed an extra sidebar that was not part of this theme version
+- Updated the language .pot file
+
+
+[June 15, 2015] Version 1.0.1
+-------------------------------------------------------
+
+- Fixed an incorrect function name in the functions.php file
+- Removed an extra enqueued html5.js script that was in the header.php
+- Added missing "no content" template content-none.php
+- Fixed multi-page nav on the full single post
+
+
+[June 6, 2015] Version 1.0.0
+-------------------------------------------------------
+
+- New theme is released
