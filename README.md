@@ -21,3 +21,4 @@
 + fix footer to bottom
 + Some more stuff but I haven't discovered it yet
 + add professional email and test
++ Change links for BT site and internal stuff as things go live
